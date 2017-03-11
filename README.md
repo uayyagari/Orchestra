@@ -28,7 +28,7 @@
             - `getName` returns a name for the instrument as a `String`. This value is different per object.
             - `getAge` returns the age of the instrument as an `int` (this is the age of the object not of the instrument's existence). This value is different per object.
         
-    - Provided implementations of the `equals` and `hashCode` methods for each class within package [edu.nyu.cs9053.homework4.hierarchy](src/main/java/edu/nyu/cs9053/homework4/hierarchy)
+    - Provided implementations of the `equals` and `hashCode` methods for each class within package [edu.nyu.cs9053.homework4.hierarchy]
         
    
     - Implemented music!
@@ -44,10 +44,10 @@
             - Each "ditty" (i.e. all [Note] objects comprising it) was be performed in 30 seconds at tempo of 100 bpm. Scaling of the musicians was done according to their tempo.
             - For simplicity, each [Note] within a "ditty" can be evenly spaced
     
-    - Construct your appropriate musician implementations in the [MusicianProvider](src/main/java/edu/nyu/cs9053/homework5/MusicianProvider.java)
-        - As well as randomly create one of your [MusicalInstrument](src/main/java/edu/nyu/cs9053/homework5/MusicalInstrument.java) implementations at each invocation of the `randomlyChoose` method
+    - Construct your appropriate musician implementations in the [MusicianProvider]
+        - As well as randomly create one of your [MusicalInstrument] implementations at each invocation of the `randomlyChoose` method
     
-    - Create your own ditty and add into the appropriate place within the [Conductor](src/main/java/edu/nyu/cs9053/homework5/Conductor.java)
+    - Create your own ditty and add into the appropriate place within the [Conductor]
         - This should be the only modification to `Conductor` you do
 
 
